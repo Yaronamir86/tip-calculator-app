@@ -1,7 +1,7 @@
 # Frontend Mentor - Tip calculator app
 
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
-https://github.com/Yaronamir86/tip-calculator-app.git
+ https://yaronamir86.github.io/tip-calculator-app/
 
 ## Welcome! 👋
 
