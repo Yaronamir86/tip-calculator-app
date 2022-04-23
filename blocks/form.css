@@ -81,9 +81,12 @@
 
 @media screen and (max-width: 800px) {
   .form {
-    width: 100%;
+    width: 95%;
+   max-width: 100%;
     padding: 0px;
-    margin-right: 10px;
+    margin: auto;
+   /* margin-right: 20px;
+    margin-left: 20px;*/
   }
 
   .form__fieldset_type_percents {

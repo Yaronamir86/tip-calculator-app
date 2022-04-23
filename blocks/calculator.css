@@ -3,7 +3,7 @@
   border-radius: 20px;
   display: flex;
   margin: auto;
-  /* height: 60vh;*/
+ min-height: 480px;
   width: 63.678vw;
   max-width: 920px;
   min-width: 765px;
@@ -31,12 +31,14 @@
 @media screen and (max-width: 800px) {
   .calculator {
     width: fit-content;
-    max-width: 600px;
+    max-width: 700px;
     min-width: 400px;
+    min-height: 650px;
   }
 
   .calculator__container {
     flex-direction: column;
+    height: fit-content;
   }
 
   .calculator__fields {

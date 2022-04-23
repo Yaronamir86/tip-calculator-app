@@ -1,12 +1,8 @@
 .logo {
   display: flex;
   text-align: center;
-  margin: 60px auto 30px;
+  margin: 160px auto 40px;
 }
 
-@media screen and (max-width: 800px) {
-  .logo {
-    margin: 30px auto 15px;
-  }
-}
+
 
