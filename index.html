@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="author" content="yaron amir" />
+    <meta name="keywords" content="HTML, CSS, JS" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body class="body">
+    <header class="logo">
+      <img
+        class="logo__image"
+        src="./images/logo.svg"
+        alt="splitter-app-logo"
+      />
+    </header>
+    <main class="calculator">
+      <div class="calculator__container">
+        <form action="submit" class="calculator__form form">
+          <fieldset class="form__fieldset">
+            <label class="form__label" for="#bill-amount">bill</label>
+            <span class="form__input-wrapper">
+              <input
+                id="bill-amount"
+                type="number"
+                class="form__input form__input_type_bill"
+                placeholder="0"
+              />
+              <img
+                src="./images/icon-dollar.svg"
+                class="form__icon"
+                alt="dollar-sign"
+              />
+            </span>
+          </fieldset>
+          <fieldset class="form__fieldset form__fieldset_type_percents">
+            <label class="form__label">Select Tip %</label>
+            <div class="form__percents-options">
+              <button type="button" class="form__percent-option">5%</button>
+              <button type="button" class="form__percent-option">10%</button>
+              <button type="button" class="form__percent-option">15%</button>
+              <button type="button" class="form__percent-option">25%</button>
+              <button type="button" class="form__percent-option">50%</button>
+              <input
+                type="number"
+                class="form__percent-costum"
+                placeholder="Custom"
+              />
+            </div>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label class="form__label" for="#num-people"
+              >Number of People</label
+            >
+            <span class="form__input-wrapper">
+              <input
+                id="people-count"
+                type="number"
+                class="form__input form__input_type_people"
+                placeholder="0"
+              />
+              <img
+                src="./images/icon-person.svg"
+                class="form__icon"
+                alt="person-icon"
+              />
+            </span>
+          </fieldset>
+        </form>
+        <div class="output calculator__output">
+          <ul class="calculator__fields">
+            <li class="output__line output__amount">
+              <div class="output__line-text">
+                <h2 class="output__tip-amount">Tip Amount</h2>
+                <p class="output__per-person">/ person</p>
+              </div>
+              <div class="output__number output__number_type_total-tip">
+                $0.00
+              </div>
+            </li>
+            <li class="output__line output__total">
+              <div class="output__line-text">
+                <h2 class="output__tip-amount">Total</h2>
+                <p class="output__per-person">/ person</p>
+              </div>
+              <div class="output__number output__number_type_total-bill">
+                $0.00
+              </div>
+            </li>
+          </ul>
+          <div class="output__button">
+            <button class="output__reset-btn" disabled>reset</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">yaron amir</a>.
+    </footer>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

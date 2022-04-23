@@ -1,0 +1,92 @@
+.output{
+    background-color:rgb(1, 70, 70) ;
+    margin: 30px 30px;
+    border-radius: 15px;
+    width: 50%;
+   
+}
+
+.output__calculator{
+    display: flex;
+    justify-content: center;
+}
+
+.output__line{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+}
+
+.output__line:first-child{
+    margin-bottom: 30px;
+}
+
+.output__line-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.output__number{
+    font-size: 48px;
+    align-self: center;
+    text-align: center;
+    color: rgb(64, 180, 180);
+}
+
+.output__tip-amount{
+    font-size: 16px;
+    margin: 0;
+}
+
+.output__per-person{
+font-size: 12px;
+margin: 0;
+color: rgb(64, 180, 180);
+}
+
+.output__button{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.output__reset-btn{
+    width:calc(100% - 40px);
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: rgb(64, 180, 180);
+    border: none;
+    color: rgb(1, 70, 70);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.4;
+}
+
+.output__reset-btn_active{
+    opacity: 1;
+}
+
+.output__reset-btn:hover{
+    background-color: rgb(61, 126, 126);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .output{
+        width: auto;
+       max-width: 100%;
+       margin-right: 10px;
+       margin-left: 10px;
+    }
+
+    .output__line:first-child{
+        margin-bottom: 10px;
+    }
+}

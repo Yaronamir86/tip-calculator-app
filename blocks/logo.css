@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  text-align: center;
+  margin: 60px auto 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    margin: 30px auto 15px;
+  }
+}
+
