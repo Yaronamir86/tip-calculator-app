@@ -16,6 +16,9 @@
     justify-content: space-between;
     align-content: center;
     flex-direction: row;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .output__line:first-child{

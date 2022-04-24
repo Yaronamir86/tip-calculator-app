@@ -44,6 +44,7 @@ function handleCostumTip() {
   percent.forEach((btn) => {
     btn.classlist.remove("form__percent-option_active");
   });
+  calcTip();
 }
 
 function calcTip() {

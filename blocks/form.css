@@ -81,11 +81,11 @@
 
 @media screen and (max-width: 800px) {
   .form {
-    width: 95%;
-   max-width: 100%;
+    width: 90%;
+    max-width: 100%;
     padding: 0px;
     margin: auto;
-   /* margin-right: 20px;
+    /* margin-right: 20px;
     margin-left: 20px;*/
   }
 
